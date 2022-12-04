@@ -1,0 +1,23 @@
+<h2>User Detail Component</h2>
+
+<div *ngIf="user">
+  <p>
+    Details for <b>{{user.username}}</b>
+  </p>
+  <p>
+    Real name: {{user.firstName}} {{user.lastName}}
+  </p>
+  <p>
+    Age: {{user.age}}
+  </p>
+  <p>
+    UUID: {{user.uuid}}
+  </p>
+</div>
+
+<div *ngIf="!user">
+  <p>
+    No data to display
+  </p>
+</div>
+
