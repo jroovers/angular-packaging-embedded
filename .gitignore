@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+
+### Generated angular code ###
+src/main/resources/static/**
