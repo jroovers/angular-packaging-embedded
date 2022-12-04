@@ -1,2 +1,2 @@
 # angular-packaging-embedded
-trying different ways to package an angular projects 
+trying different ways to package a angular + spring boot project 
